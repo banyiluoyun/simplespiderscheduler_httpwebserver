@@ -83,6 +83,7 @@ def transpond(str_tran):
         return result
     elif "转发" in str_tran:
         result = str_tran.replace('转发','')
+        return result
     else:
         return str_tran
 

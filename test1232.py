@@ -1,11 +1,5 @@
-import time
-import datetime
-starttime = time.time()
-time.sleep(10)
-endtime = time.time()
-costtime = endtime - starttime
 
-if costtime >= 3600:
-    print(costtime)
-else:
-    print('keyiyunxing ')
+from apscheduler.schedulers.tornado import TornadoScheduler
+sched = TornadoScheduler
+c = sched.get_jobs()
+print(c)

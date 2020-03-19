@@ -4,7 +4,7 @@ import pymongo
 import pandas as pd
 import jieba.posseg as pseg
 import codecs
-
+import pymongo
 
 class Fenci(object):
     def __init__(self):
